@@ -98,10 +98,10 @@ const Page = () => {
             onChange={handleChange}
           />
         </div>
-        <div>
+        {/* <div>
           <label htmlFor="quantity">수량</label>
           <input type="number" name="quantity" />
-        </div>
+        </div> */}
         <div className={style.button}>
           <button onClick={handleCancel}>취소</button>
           <button onClick={handleSave}>저장</button>

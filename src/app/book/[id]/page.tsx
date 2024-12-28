@@ -48,7 +48,7 @@ const Page = () => {
           <span>{book.publisher}</span>
         </div>
         <p>{book.description}</p>
-        <p>수량 : 0</p>
+        {/* <p>수량 : 0</p> */}
         <div>
           <button onClick={handleEdit}>수정</button>
           <button onClick={handleDelete}>삭제</button>
